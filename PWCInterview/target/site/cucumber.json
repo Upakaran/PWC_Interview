@@ -1,0 +1,330 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Verify that ToolsQA Practise Form works correctly",
+        "description": "",
+        "id": "test-toolsqa-practise-form;verify-that-toolsqa-practise-form-works-correctly",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7518558900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Browser is open and user navigates to ToolQA Practise form site",
+            "match": {
+              "location": "ToolsQAFormSteps.browser_is_open_and_user_navigates_to_ToolQA_Practise_form_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1398752000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters the First Name in correct field",
+            "match": {
+              "location": "ToolsQAFormSteps.user_enters_the_First_Name_in_correct_field(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstName"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "John"
+                ],
+                "line": 12
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1248792300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enters the last Name in correct field",
+            "match": {
+              "location": "ToolsQAFormSteps.user_enters_the_last_Name_in_correct_field(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "lastName"
+                ],
+                "line": 15
+              },
+              {
+                "cells": [
+                  "Sen"
+                ],
+                "line": 16
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1419770700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters email in correct field",
+            "match": {
+              "location": "ToolsQAFormSteps.user_enters_email_in_correct_field(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "email"
+                ],
+                "line": 19
+              },
+              {
+                "cells": [
+                  "john.sen@gmail.com"
+                ],
+                "line": 20
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1277128200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User selects correct gender",
+            "match": {
+              "location": "ToolsQAFormSteps.user_selects_correct_gender(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "gender"
+                ],
+                "line": 23
+              },
+              {
+                "cells": [
+                  "male"
+                ],
+                "line": 24
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1288241400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User enters ten digit mobile number in correct field",
+            "match": {
+              "location": "ToolsQAFormSteps.user_enters_ten_digit_mobile_number_in_correct_field(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "mobNo"
+                ],
+                "line": 27
+              },
+              {
+                "cells": [
+                  "9100091000"
+                ],
+                "line": 28
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3520967500,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 30,
+                "value": "#And User enters his date of birth"
+              },
+              {
+                "line": 31,
+                "value": "#| dateOfBirth |"
+              },
+              {
+                "line": 32,
+                "value": "#| 10 July 1990 |"
+              }
+            ],
+            "line": 34,
+            "name": "User enters his subject",
+            "match": {
+              "location": "ToolsQAFormSteps.user_enters_his_subject(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "subject"
+                ],
+                "line": 35
+              },
+              {
+                "cells": [
+                  "English"
+                ],
+                "line": 36
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3397872400,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User selects his hobby",
+            "match": {
+              "location": "ToolsQAFormSteps.user_selects_his_hobby(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "hobby"
+                ],
+                "line": 39
+              },
+              {
+                "cells": [
+                  "Reading"
+                ],
+                "line": 40
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4406562800,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 42,
+                "value": "#And user Uploads his picture"
+              },
+              {
+                "line": 44,
+                "value": "#Then user enters his current address"
+              },
+              {
+                "line": 45,
+                "value": "#| currentAddress |"
+              },
+              {
+                "line": 46,
+                "value": "#| 55 Test Road |"
+              },
+              {
+                "line": 47,
+                "value": "#"
+              },
+              {
+                "line": 48,
+                "value": "#And User selcts his State"
+              },
+              {
+                "line": 49,
+                "value": "#| state |"
+              },
+              {
+                "line": 50,
+                "value": "#| Uttar Pradesh |"
+              },
+              {
+                "line": 51,
+                "value": "#"
+              },
+              {
+                "line": 52,
+                "value": "#And User selcts his City"
+              },
+              {
+                "line": 53,
+                "value": "#| city |"
+              },
+              {
+                "line": 54,
+                "value": "#| Agra |"
+              }
+            ],
+            "line": 56,
+            "name": "User Clicks on submit button",
+            "match": {
+              "location": "ToolsQAFormSteps.user_Clicks_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2273855600,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "user is shown confirmation message",
+            "match": {
+              "location": "ToolsQAFormSteps.user_is_shown_confirmation_message(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "confirmationMsg"
+                ],
+                "line": 59
+              },
+              {
+                "cells": [
+                  "Thanks for submitting the form"
+                ],
+                "line": 60
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@TC_01"
+          }
+        ]
+      }
+    ],
+    "name": "Test ToolsQA practise Form",
+    "description": "",
+    "id": "test-toolsqa-practise-form",
+    "keyword": "Feature",
+    "uri": "ToolsQA_TC01.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Test"
+      }
+    ]
+  }
+]
